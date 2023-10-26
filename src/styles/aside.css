@@ -1,0 +1,123 @@
+.aside{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 200px;
+    padding: 25px;
+    z-index: 100;
+    color: #a9a7d0;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.select-language{
+    margin-top: 20px;
+    margin-left: 40px;
+    background-color: #293047;
+    color: #a9a7d0;
+    box-shadow: 3px 3px 2px 1px rgba(3, 3, 12, 0.377);
+    border: none;
+    padding: 12px;
+    width: 120px;
+    font-size: 17px;
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+}
+
+.select-language::before {
+    content: "\f13a";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+}
+  
+.select-language:hover::before {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+  
+.select-language option {
+    padding: 30px;
+}
+
+.imgPresentation{
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 15vh;
+    border-radius: 50%;
+}
+
+.links{
+    margin: 0;
+}
+
+.link-aside{
+    text-align: center;
+}
+
+.link-aside:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .aside{
+        position:unset;
+        height: 100px;
+        padding-top: 0;
+        padding-left: 10px;
+        margin-left: 65px;
+    }
+
+    .select-language{
+        position: absolute;
+        margin: 0;
+        right: 10px;
+        top: 100px;
+    }
+    
+    .imgPresentation{
+        display: none;
+    }
+
+    .links{
+        height: 100px;
+        display: inline-flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .link-aside{
+        width: 100px;;
+        margin-right: 50px;;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .aside{
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .links{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .aside{
+        margin-left: 0;
+    }
+}

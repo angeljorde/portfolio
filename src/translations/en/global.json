@@ -1,0 +1,69 @@
+{
+    "aside":{
+        "Aboutme": "About me",
+        "Projects": "Projects",
+        "Education": "Formation" 
+    },
+    "angel":{
+        "welcome": "Welcome to my portfolio as <span class='red bold'>Electronic</span> Engineer and <span class='red bold'>Full-Stack</span> developer!",
+        "contact": "You can get in touch with me through: ",
+        "contact-email": "You can also send me an email at:",
+        "btn-CV": "Download my CV"
+    },
+    "aboutme":{
+        "aboutme-title": "About me",
+        "aboutme-text": "I am a student of <span class='red'>Industrial and Automatic Electronic Engineering</span> at the Polytechnic University of Valencia, Spain. In addition to that, I am passionate about <span class='red'>software development</span>. For over 4 years, I have been dedicated to programming websites and mobile applications.",
+        "ambitions-title": "Ambitions",
+        "ambitions-text": "Although I already have knowledge in various programming languages related to Frontend development, I continue to study and work on projects in order to improve. Furthermore, I have knowledge in <span class='red'>Backend development</span>, which allows me to create much more comprehensive applications. The technologies related to <span class='red'>Electronics</span> and <span class='red'>Control</span> enable me to work in various areas within my field based on demand." 
+    },
+    "dataProjects":[
+        {
+            "title": "Sudokus solver",
+            "description": "Program that is capable of solving any sudoku.",
+            "img": "sudoku.png",
+            "technologies": ["JavaScript"],
+            "link": ["Github"],
+            "url": ["https://github.com/angeljorde/Solucionador-de-Sudokus"]
+        },
+        {
+            "title": "Bakery website",
+            "description": "Website designed for a bakery shop",
+            "img": "pasteleria.jpg",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "link": ["Github", "link"],
+            "url": ["https://github.com/angeljorde/Pagina-Web-Panaderia", "../projects/PaginaWebPanaderia/html/main.html"]
+        },
+        {
+            "title": "Personal portfolio",
+            "description": "Personal portfolio as a Electronic Engineer and Software Developer",
+            "img": "portfolio.jpeg",
+            "technologies": ["React", "CSS"],
+            "link": ["Github", "link"],
+            "url": ["https://github.com/angeljorde/portfolio", ""]
+        },
+        {
+            "title": "Audio Amplifier Design",
+            "description": "Electronic Design of an audio amplifier using sound level meter",
+            "img": "sonometro.jpeg",
+            "technologies": ["Multisim"],
+            "link": ["link"],
+            "url": ["../pdf/amplificador_proyecto.pdf"]
+        }
+    ],
+    "titles": [
+        {
+            "title": "Industrial Electronics and Automatic Student",
+            "institution": "Polytechnic university of Valencia",
+            "date": "Studying",
+            "description": "Currently studying a university degree in Industrial Electronics and Automatic, taught by the UPV. Internationally recognized university.",
+            "img": "upv.jpg"
+        },
+        {
+            "title": "Higher Course in Professional Web Design",
+            "institution": "Deusto Formacion",
+            "date": 2023,
+            "description": "Course in Web Page Design taught by the Deusto Formacion academy. 200 hour course.",
+            "img": "deusto.jpg"
+        }
+    ]
+}

@@ -1,0 +1,465 @@
+.content-container{
+    width: calc(96vw - 250px);
+    margin-left: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*-------------ANGEL JORDE-------------*/
+
+.presentation-container{
+    width: 70%; /*calc*/
+    margin-right: 30%;;
+    padding-left: 30px;
+    height: 100vh;
+}
+
+.name{
+    font-size: 40px;
+    margin-bottom: 0;
+    padding-top: 130px;
+    color:  white;
+}
+
+.red{
+    color: #ed532d;
+    font-weight:500;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.text-welcome{
+    font-size: 20px;
+    color: #8EA0D9;
+}
+
+.text-contact{
+    font-size: 18px;
+    color: #A3ABC4;
+    margin-bottom: 0;
+    margin-top: 15px;;
+}
+
+.social{
+    color: white;
+    padding-top: 0;
+    margin-top: 20px;
+}
+
+.social a{
+    text-decoration: none;
+    color: white;
+}
+
+.social svg{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+.social svg:hover{
+    cursor: pointer;
+}
+
+.text-mail{
+    margin-top: 12px;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.btnCV{
+    padding: 10px 50px;
+    border: 2px solid #c95032;
+    font-size: 15px;
+    font-weight: bold;
+    background: none;
+    color: #c95032;
+    text-decoration: none;
+}
+
+.btnCV:hover{
+    cursor: pointer;
+    border-color: #ed532d;
+    color:  #ed532d;
+}
+
+/*----------ABOUT ME------------*/
+
+.aboutme-container{
+    width: 80%; /*calc*/
+    margin-right: 20%;;
+    padding-left: 30px;
+    height: 100vh;
+}
+
+.aboutme-title{
+    font-size: 25px;
+    margin-bottom: 0;
+    color:  white;
+}
+
+.aboutme-text{
+    margin-top: 10px;
+    color:  #bbc1d4;
+    font-size: 16px;
+}
+
+.ambitions-title{
+    font-size: 25px;
+    color:  white;
+    margin-bottom: 0
+}
+
+.ambitions-text{
+    margin-top: 10px;
+    color:  #bbc1d4;
+    font-size: 16px;
+}
+
+/**-----------PROJECTS------------------*/
+.projects-container{
+    width: 90%; /*calc*/
+    margin-right: 10%;;
+    padding-left: 30px;
+    margin-bottom: 400px;
+}
+
+.project-title{
+    font-size: 30px;
+    color: white;
+}
+
+.projects-grid{
+    display: grid;
+    width: 100%;
+    margin-left: 0;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-gap: 40px;
+}
+
+.project{
+    color: white;
+    border: none;
+    height: 310px;
+    width: 200px;
+    background-color: #0909114e;
+    border-radius: 15px;
+}
+
+.imgProject{
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.content-project{
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;;
+    
+}
+.title-description-container{
+    margin: 0;
+    padding: 0;
+    height: 120px;;
+}
+
+.titulo-project{
+    font-size: 18px;
+    margin-bottom: 0;
+    color: white;
+    margin-top: 0;
+    padding-top: 5px;
+}
+
+.description-project{
+    color: #bfd2e0;
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+
+.tecnologias-project{
+    width: 100%;
+    margin-top: 0;
+}
+
+.tecnologia{
+    font-size: 12px;
+    padding: 5px;
+    background-color: #711e1e;
+    float:left;
+    margin-right: 5px;
+}
+
+.enlaces-project{
+    margin-left: 2px;
+    margin-bottom: 0;
+    display: inline-flex;
+    justify-content: start;
+}
+
+.tecnologias-enlaces-container{
+    display: flex;
+    flex-direction: column;
+}
+.enlaces-project svg{
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+}
+
+.url-link{
+    text-decoration: none;
+    color: white;
+}
+
+/*------------SKILLS--------------*/
+
+.skills-container{
+    width: 90%; /*calc*/
+    margin-right: 10%;;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 150px;
+}
+
+.education-title{
+    font-size: 30px;
+    color: white;
+}
+
+.titles{
+    width: 80%;
+    margin-left: 0%;
+    margin-top: 20px;
+}
+
+.title{
+    width: 400px;
+    display:grid;
+    background-color: #0909114e;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.cabecera{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;    
+}
+
+.img-title{
+    width: 80px;
+    height: 92px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+}
+
+.text-cabecera{
+    margin-left: 8px;
+}
+
+.title-title{
+    font-size: 17px;
+    color: white;
+    margin: 0;
+    font-weight: 400;
+    margin-top: 11px;
+}
+
+.institution-title{
+    font-size: 14px;
+    color: #76769a;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.footer{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5px;
+}
+
+.date{
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.description-title{
+    margin-top: 0;
+    color: #bfd2e0;
+}
+
+.abilities-container{
+    width: 400px;
+    margin-left: 150px;
+}
+
+.abilities-title{
+    font-size: 30px;
+    color: white;
+}
+
+.abilities{
+    margin-top: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 50px);
+    grid-gap: 30px;
+    place-items: center;
+    width: 80%;
+}
+
+.ability{
+    width: 70px;
+    display:flex;
+    flex-direction: column;
+}
+
+.img-container{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.img-ability{
+    width: 100%;
+}
+
+.name-ability{
+    color: #a9a7d0;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 1350px) {
+    .projects-container{
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .skills-container{
+        flex-direction: column;
+    }
+    .abilities-container{
+        margin-left: 0px;
+    }
+    .abilities{
+        margin-top: 10px;
+        margin-left:20px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .aboutme-container{
+        padding-top: 150px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .content-container{
+        margin-left: 0;
+    }
+    .presentation-container{
+        width: 85%;
+        margin-right: 15%;
+        margin-left: 50px;
+    }
+    .name{
+        padding-top: 70px;
+    }
+    .aboutme-container{
+        width: 85%;
+        margin-right: 15%;
+        margin-left: 50px;
+
+    }
+    .projects-container{
+        margin-left: 50px;
+        width: 90vw;
+    }
+    .projects-grid{
+        grid-template-columns: 200px 200px;
+        grid-gap: 20px;
+    }
+    .skills-container{
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .presentation-container{
+        height: 120vh;
+        width: 85vw;
+        margin-left: 5px;
+    }
+
+    .aboutme-container{
+        height: 120vh;
+        width: 80vw;
+        margin-left: 5px;
+    }
+
+    .aboutme-text{
+        margin-left: 15px;
+    }
+
+    .ambitions-text{
+        margin-left: 15px;
+    }
+
+    .projects-container{
+        margin-left: 5px;
+    }
+
+    .projects-grid{
+        margin-left: 20px;
+    }
+    .project-title{
+        margin-left: 5px;
+    }
+    .skills-container{
+        margin-left: 5px;
+    }
+
+    .education-title{
+        margin-left: 5px;
+    }
+    .abilities-title{
+        margin-left: 5px;
+    }
+    .titles{
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .projects-container{
+        margin-left: 0;
+        margin-bottom: 200px;
+    }
+    .projects-grid{
+        grid-gap: 20px;
+        margin-left: 0;
+    }
+    .abilities{
+        margin-left: 25px;
+    }
+}

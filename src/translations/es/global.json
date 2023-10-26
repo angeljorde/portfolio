@@ -1,0 +1,69 @@
+{
+    "aside":{
+        "Aboutme": "Sobre mí",
+        "Projects": "Projectos",
+        "Education": "Formación" 
+    },
+    "angel":{
+        "welcome": "Bienvenid@ a mi portfolio de ingeniero <span class='red bold'>Electrónico</span> y desarrollador <span class='red bold'>FullStack!</span>",
+        "contact": "Puedes ponerte en contacto conmigo a través de: ",
+        "contact-email": "También puedes mandarme un correo:",
+        "btn-CV": "Descarga mi CV"
+    },
+    "aboutme":{
+        "aboutme-title": "Sobre mí",
+        "aboutme-text": "Estudiante de <span class='red'>Ingeniería Electrónica Industrial y Automática</span> en la Universidad Politénica de Valencia, España. Además de eso, soy un apasionado del <span class='red'>desarrollo de software</span>. Desde hace más de 4 años me dedico a programar páginas web y aplicaciones móviles.",
+        "ambitions-title": "Ambiciones",
+        "ambitions-text": "Aunque ya tengo conocimientos en diferentes lenguajes de programación en relación con el <span class='red'>desarrollo Frontend</span>, sigo estudiando y realizando proyectos con el fin de mejorar. Además, cuento con conocimientos en <span class='red'>desarrollo Backend</span>, lo cual me permite hacer aplicaciones mucho más completas. Las tecnologías relacionadas con la <span class='red'>Electrónica</span> y <span class='red'>Control</span> me permiten poder trabajar en diferentes ambitos de mi campo en función de la demanda." 
+    },
+    "dataProjects":[
+        {
+            "title": "Solucionador de Sudokus",
+            "description": "Programa que es capaz de resolver cualquier sudoku.",
+            "img": "sudoku.png",
+            "technologies": ["JavaScript"],
+            "link": ["Github"],
+            "url": ["https://github.com/angeljorde/Solucionador-de-Sudokus"]
+        },
+        {
+            "title": "Página web para panadería",
+            "description": "Página web diseñada para una panadería.",
+            "img": "pasteleria.jpg",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "link": ["Github", "link"],
+            "url": ["https://github.com/angeljorde/Pagina-Web-Panaderia", "../projects/PaginaWebPanaderia/html/main.html"]
+        },
+        {
+            "title": "Portfolio personal",
+            "description": "Portolio Web personal como Ingeniero Electrónico y desarrollador de software.",
+            "img": "portfolio.jpeg",
+            "technologies": ["React", "CSS"],
+            "link": ["Github", "link"],
+            "url": ["https://github.com/angeljorde/portfolio", ""]
+        },
+        {
+            "title": "Diseño Amplificador de Audio",
+            "description": "Diseño electrónico de un amplificador de audio por sonometro.",
+            "img": "sonometro.jpeg",
+            "technologies": ["Multisim"],
+            "link": ["link"],
+            "url": ["../pdf/amplificador_proyecto.pdf"]
+        }
+    ],
+    "titles": [
+        {
+            "title": "Estudiante de Electrónica Industrial y Automática",
+            "institution": "Universidad Politécnica de Valencia",
+            "date": "Cursando",
+            "description": "Actualmente estudiando el grado universitario en Electrónica Industrial y Automática impartido por la UPV. Universidad reconocida internacionalmente.",
+            "img": "upv.jpg"
+        },
+        {
+            "title": "Curso Superior de Diseño Web Profesional",
+            "institution": "Deusto Formación",
+            "date": 2023,
+            "description": "Curso en Diseño de Páginas Web impartido por la academia Deusto Formación. Curso de 200 horas.",
+            "img": "deusto.jpg"
+        }
+    ]
+}
